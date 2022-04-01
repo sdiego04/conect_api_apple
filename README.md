@@ -29,4 +29,15 @@ composer require firebase/php-jwt
 8 - Agora vamos passar os parametros que pegamos no site da Apple e vamos passar para as variaveis, esse é o corpo das ulr's https://api.appstoreconnect.apple.com/v1/, que da acesso as API'S da Apple, para acessar qualquer API, basta contatenar o serviço com a url.
 
 
-![](/assets/git5.JPG)
+![](/assets/git5.jpg)
+9 - Feito, vamos criar o metodo que ira gerar o token
+
+![](/assets/git6.jpg)
+
+9 - Nesse caso eu quero acessar a API https://api.appstoreconnect.apple.com/v1/builds/ID_URL, e usaremos um CURL realizando um GET para buscar essas informações, você pode usar outra biblioteca para fazer uma requisição HTTP
+
+![](/assets/git7.JPG)
+
+10 - Caso queira mais informações é so entrar no site da Apple.
+
+https://developer.apple.com/documentation/appstoreconnectapi/generating_tokens_for_api_requests
